@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="ex3.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <meta charset="UTF-8">
+        <title>Test Vue.js</title>
+    </head>
+    <body>
+
+        <h1>Faisons semblant de faire un vrai site</h1>
+
+        <h2>Liste d'articles nul de faits nul en tout genre :</h2>
+
+        <div id="app">
+            <blog-post
+              v-for="post in posts"
+              v-bind:key="post.id"
+              v-bind:post="post"
+            ></blog-post>
+        </div>
+                
+        <script src="ex3.js"></script>
+    </body>
+</html>

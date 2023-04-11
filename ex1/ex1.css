@@ -1,0 +1,43 @@
+html, body {
+    margin: 5px;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    border: 5px solid pink;
+    background-color: pink;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 24px;
+  }
+
+/* Container pour les articles */
+#app {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .blog-post {
+    border: 1px solid #4728e2;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 24px;
+  }
+  
+  /* Style pour les titres d'article */
+  .blog-post h3 {
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+  
+  /* Style pour le contenu de l'article */
+  .blog-post p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+  }
+  
